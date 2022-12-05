@@ -1,0 +1,171 @@
+body a{
+	color:#005ca9;
+}
+body a:hover{
+	text-decoration:none;
+}
+.img-responsive{
+	max-width: 100%;
+    height: auto;
+}
+label {
+  display: block;
+  transform: translate(0, -2.75rem);
+}
+
+input {
+  width: 100%;
+  padding:14px 15px 10px 15px;
+  background:rgb(0,0,0,0.02);
+  border: none;
+  border-bottom: 2px solid #ddd;
+  transition: border-color 0.2s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #000;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #111;
+  background-color: #111;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+@supports (not (-ms-ime-align:auto)) {
+    label {
+      color: #999;
+      transform: translate(18px, -36px);
+      transition: all 0.4s ease-out;
+      font-size: 16px;
+    }
+    
+    input:focus + label,
+    input:not(:placeholder-shown) + label {
+      color: #111;
+      transform: translate(18px, -63px);
+    }
+}
+.strip2{
+	background: #005ca9;
+    padding: 20px 10px;
+    margin: 30px 0px 30px 0px;
+	text-align:center;
+}
+.strip2 li{
+	list-style:none;
+	color:#fff;
+	display:inline-block;
+	font-size: 13px;
+    font-weight: 700;
+}
+.strip3{
+	text-align:center;
+}
+.strip3 h5{
+	font-size:14px;
+	padding:0 0 10px 0;
+}
+.b2{
+	float:right;
+	background: #86cdd2;
+    border: 2px solid #86cdd2;
+    color: #000;
+	font-size: 13px;
+}
+
+@media only screen and (max-width: 767px){
+	
+	.col-xs-15{
+		width:33% !important;
+	}
+}
+
+.b1{
+	color: #005ca9;
+    background: none;
+    border: 2px solid #005ca9;
+    font-size: 13px;
+}
+.b1:hover, .b3:hover{
+	background:#eee;
+}
+.main-sec{
+	padding:30px 0 0 0;
+}
+.head1 h1{
+	font-size: 38px;
+    color: #005ca9;
+}
+.head1 h5{
+	font-size: 16px;
+}
+.head2 h5 p {
+	font-size: 16px;
+}
+.buttons{
+	padding:20px 0 0 0;
+}
+.b4{
+	float:right;
+	background: #005ca9;
+    border-radius: 0;
+    font-size: 13px;
+	border:2px solid #005ca9;
+}
+.b3{
+	background: none;
+    color: #005ca9;
+    border: 2px solid #005ca9;
+    border-radius: 0;
+    font-size: 13px;
+}
+.modal-body p{
+	padding:0px 0 20px 0;
+}
+.modal-title{
+	font-size:29px !important;
+	color:#005ca9;
+}
+.logo{
+	padding:20px 0px 0 20px;
+}
+
+@media (min-width: 1400px){
+.container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1256px;
+}
+}
+form {
+  padding: 1rem;
+}
+.ctom_sice {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.head2 p {
+  font-size: 18px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #86cdd2;
+  border-color: #86cdd2;
+}
+.btn-outline-success  {
+  color: black;
+  background-color: #005ca9;
+  border: 1px solid #005ca9;
+}
+
+
+.buttons a {
+  font-size: 14px;
+  border-radius: 1px;
+  font-weight: 600;
+}
